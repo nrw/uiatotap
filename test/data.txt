@@ -1,0 +1,23 @@
+2015-04-29 14:11:33.794 instruments[27318:3192903] WebKit Threading Violation - initial use of WebKit from a secondary thread.
+2015-04-29 19:11:39 +0000 Start: Add Single Template
+2015-04-29 19:11:39 +0000 Debug: target.frontMostApp().mainWindow().navigationBar().rightButton().tap()
+2015-04-29 19:11:41 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].textFields()[0].tap()
+2015-04-29 19:11:43 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].textFields()[0].tap()
+2015-04-29 19:11:45 +0000 Pass: correct title
+2015-04-29 19:11:45 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Add an Item"].tap()
+2015-04-29 19:11:46 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Matcher"].tap()
+2015-04-29 19:11:48 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Duration"].tap()
+2015-04-29 19:11:50 +0000 Pass: correct duration display
+2015-04-29 19:11:50 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Fade In Length"].scrollToVisible()
+2015-04-29 19:11:50 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Fade In Length"].tap()
+2015-04-29 19:11:50 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[4].scrollToVisible()
+2015-04-29 19:11:51 +0000 Fail: correct Fade In display
+2015-04-29 19:11:52 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Fade Out Length"].scrollToVisible()
+2015-04-29 19:11:52 +0000 Debug: Unexpected error in -[UIAXElement_0x7f9528720440 performAXAction:], /SourceCache/UIAutomation_Sim/UIAutomation-430.1.1/Framework/UIAXElement.m line 1081, kAXErrorFailure
+2015-04-29 19:11:52 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()["Fade Out Length"].tap()
+2015-04-29 19:11:52 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[5].scrollToVisible()
+2015-04-29 19:11:53 +0000 Pass: correct Fade Out display
+2015-04-29 19:11:53 +0000 Debug: target.frontMostApp().mainWindow().navigationBar().leftButton().tap()
+2015-04-29 19:11:53 +0000 Pass: did add template item
+2015-04-29 19:11:53 +0000 Debug: target.frontMostApp().mainWindow().navigationBar().leftButton().tap()
+Instruments Trace Complete (Duration : 22.236570s; Output : /Users/shared/dev/app/instrumentscli0.trace)
