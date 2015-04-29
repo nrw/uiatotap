@@ -37,7 +37,7 @@ if (opts.help) {
 }
 
 if (opts.version) {
-  console.log('v'+require('./package.json').version)
+  console.log('v'+require('../package.json').version)
   process.exit(0)
 }
 
