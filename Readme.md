@@ -1,4 +1,4 @@
-# uiatotap
+# uiatotap [![build status](https://secure.travis-ci.org/nrw/uiatotap.png)](http://travis-ci.org/nrw/uiatotap)
 
 A filter that turns UIAutomation output into TAP output
 
