@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var dashdash = require('dashdash')
-var Filter = require('./filter')
+var Filter = require('..')
 
 var options = [{
   names: ['debug', 'd'],
